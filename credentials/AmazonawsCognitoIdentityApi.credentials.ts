@@ -8,7 +8,7 @@ import type {
 export class AmazonawsCognitoIdentityApi implements ICredentialType {
 	name = 'N8nDevAmazonawsCognitoIdentityApi';
 
-	displayName = 'amazonaws-cognito-identity API';
+	displayName = 'Amazonaws Cognito Identity API';
 
 	icon: Icon = { light: 'file:../nodes/AmazonawsCognitoIdentity/amazonaws-cognito-identity.png', dark: 'file:../nodes/AmazonawsCognitoIdentity/amazonaws-cognito-identity.dark.png' };
 
@@ -22,7 +22,7 @@ export class AmazonawsCognitoIdentityApi implements ICredentialType {
 			default: '',
 			required: true,
 			placeholder: 'http://cognito-identity.us-east-1.amazonaws.com',
-			description: 'The base URL of your amazonaws-cognito-identity API server',
+			description: 'The base URL of your Amazonaws Cognito Identity API server',
 		},
 		{
 			displayName: 'API Key',

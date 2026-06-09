@@ -87,9 +87,9 @@ export const defaultDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Id",
-					"value": "Get Id",
-					"action": "Get Id",
+					"name": "Get ID",
+					"value": "Get ID",
+					"action": "Get ID",
 					"description": "<p>Generates (or retrieves) a Cognito ID. Supplying multiple logins will create an implicit linked account.</p> <p>This is a public API. You do not need any credentials to call this API.</p>",
 					"routing": {
 						"request": {
@@ -111,9 +111,9 @@ export const defaultDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Open Id Token",
-					"value": "Get Open Id Token",
-					"action": "Get Open Id Token",
+					"name": "Get Open ID Token",
+					"value": "Get Open ID Token",
+					"action": "Get Open ID Token",
 					"description": "<p>Gets an OpenID token, using a known Cognito ID. This known Cognito ID is returned by <a>GetId</a>. You can optionally add additional logins for the identity. Supplying multiple logins creates an implicit link.</p> <p>The OpenID token is valid for 10 minutes.</p> <p>This is a public API. You do not need any credentials to call this API.</p>",
 					"routing": {
 						"request": {
@@ -123,9 +123,9 @@ export const defaultDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Open Id Token For Developer Identity",
-					"value": "Get Open Id Token For Developer Identity",
-					"action": "Get Open Id Token For Developer Identity",
+					"name": "Get Open ID Token For Developer Identity",
+					"value": "Get Open ID Token For Developer Identity",
+					"action": "Get Open ID Token For Developer Identity",
 					"description": "<p>Registers (or retrieves) a Cognito <code>IdentityId</code> and an OpenID Connect token for a user authenticated by your backend authentication process. Supplying multiple logins will create an implicit linked account. You can only specify one developer provider as part of the <code>Logins</code> map, which is linked to the identity pool. The developer provider is the \"domain\" by which Cognito will refer to your users.</p> <p>You can use <code>GetOpenIdTokenForDeveloperIdentity</code> to create a new identity and to link new logins (that is, user credentials issued by a public provider or developer provider) to an existing identity. When you want to create a new identity, the <code>IdentityId</code> should be null. When you want to associate a new login with an existing authenticated/unauthenticated identity, you can do so by providing the existing <code>IdentityId</code>. This API will create the identity in the specified <code>IdentityPoolId</code>.</p> <p>You must use AWS Developer credentials to call this API.</p>",
 					"routing": {
 						"request": {
@@ -470,7 +470,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Open Id Connect Provider AR Ns",
+			"displayName": "Open ID Connect Provider AR Ns",
 			"name": "OpenIdConnectProviderARNs",
 			"type": "json",
 			"default": "[\n  null\n]",
@@ -745,7 +745,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Identity Pool Id",
+			"displayName": "Identity Pool ID",
 			"name": "IdentityPoolId",
 			"type": "string",
 			"default": "",
@@ -845,7 +845,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Identity Id",
+			"displayName": "Identity ID",
 			"name": "IdentityId",
 			"type": "string",
 			"default": "",
@@ -945,7 +945,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Identity Pool Id",
+			"displayName": "Identity Pool ID",
 			"name": "IdentityPoolId",
 			"type": "string",
 			"default": "",
@@ -1045,7 +1045,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Identity Id",
+			"displayName": "Identity ID",
 			"name": "IdentityId",
 			"type": "string",
 			"default": "",
@@ -1158,7 +1158,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Id"
+						"Get ID"
 					]
 				}
 			}
@@ -1171,7 +1171,7 @@ export const defaultDescription: INodeProperties[] = [
 			"type": "options",
 			"options": [
 				{
-					"name": "AWS Cognito Identity Service Get Id",
+					"name": "AWS Cognito Identity Service Get ID",
 					"value": "AWSCognitoIdentityService.GetId"
 				}
 			],
@@ -1188,13 +1188,13 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Id"
+						"Get ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "AccountId",
 			"type": "string",
 			"default": "",
@@ -1213,14 +1213,14 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Id"
+						"Get ID"
 					]
 				}
 			}
 		},
 		{
 			"required": true,
-			"displayName": "Identity Pool Id",
+			"displayName": "Identity Pool ID",
 			"name": "IdentityPoolId",
 			"type": "string",
 			"default": "",
@@ -1239,7 +1239,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Id"
+						"Get ID"
 					]
 				}
 			}
@@ -1264,7 +1264,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Id"
+						"Get ID"
 					]
 				}
 			}
@@ -1289,7 +1289,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Id"
+						"Get ID"
 					]
 				}
 			}
@@ -1345,7 +1345,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Identity Pool Id",
+			"displayName": "Identity Pool ID",
 			"name": "IdentityPoolId",
 			"type": "string",
 			"default": "",
@@ -1408,7 +1408,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Open Id Token"
+						"Get Open ID Token"
 					]
 				}
 			}
@@ -1421,7 +1421,7 @@ export const defaultDescription: INodeProperties[] = [
 			"type": "options",
 			"options": [
 				{
-					"name": "AWS Cognito Identity Service Get Open Id Token",
+					"name": "AWS Cognito Identity Service Get Open ID Token",
 					"value": "AWSCognitoIdentityService.GetOpenIdToken"
 				}
 			],
@@ -1438,14 +1438,14 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Open Id Token"
+						"Get Open ID Token"
 					]
 				}
 			}
 		},
 		{
 			"required": true,
-			"displayName": "Identity Id",
+			"displayName": "Identity ID",
 			"name": "IdentityId",
 			"type": "string",
 			"default": "",
@@ -1464,7 +1464,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Open Id Token"
+						"Get Open ID Token"
 					]
 				}
 			}
@@ -1489,7 +1489,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Open Id Token"
+						"Get Open ID Token"
 					]
 				}
 			}
@@ -1514,7 +1514,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Open Id Token"
+						"Get Open ID Token"
 					]
 				}
 			}
@@ -1533,7 +1533,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Open Id Token For Developer Identity"
+						"Get Open ID Token For Developer Identity"
 					]
 				}
 			}
@@ -1546,7 +1546,7 @@ export const defaultDescription: INodeProperties[] = [
 			"type": "options",
 			"options": [
 				{
-					"name": "AWS Cognito Identity Service Get Open Id Token For Developer Identity",
+					"name": "AWS Cognito Identity Service Get Open ID Token For Developer Identity",
 					"value": "AWSCognitoIdentityService.GetOpenIdTokenForDeveloperIdentity"
 				}
 			],
@@ -1563,14 +1563,14 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Open Id Token For Developer Identity"
+						"Get Open ID Token For Developer Identity"
 					]
 				}
 			}
 		},
 		{
 			"required": true,
-			"displayName": "Identity Pool Id",
+			"displayName": "Identity Pool ID",
 			"name": "IdentityPoolId",
 			"type": "string",
 			"default": "",
@@ -1589,13 +1589,13 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Open Id Token For Developer Identity"
+						"Get Open ID Token For Developer Identity"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Identity Id",
+			"displayName": "Identity ID",
 			"name": "IdentityId",
 			"type": "string",
 			"default": "",
@@ -1614,7 +1614,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Open Id Token For Developer Identity"
+						"Get Open ID Token For Developer Identity"
 					]
 				}
 			}
@@ -1640,7 +1640,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Open Id Token For Developer Identity"
+						"Get Open ID Token For Developer Identity"
 					]
 				}
 			}
@@ -1665,7 +1665,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Open Id Token For Developer Identity"
+						"Get Open ID Token For Developer Identity"
 					]
 				}
 			}
@@ -1690,7 +1690,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Open Id Token For Developer Identity"
+						"Get Open ID Token For Developer Identity"
 					]
 				}
 			}
@@ -1715,7 +1715,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Open Id Token For Developer Identity"
+						"Get Open ID Token For Developer Identity"
 					]
 				}
 			}
@@ -1771,7 +1771,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Identity Pool Id",
+			"displayName": "Identity Pool ID",
 			"name": "IdentityPoolId",
 			"type": "string",
 			"default": "",
@@ -1897,7 +1897,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Identity Pool Id",
+			"displayName": "Identity Pool ID",
 			"name": "IdentityPoolId",
 			"type": "string",
 			"default": "",
@@ -2348,7 +2348,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Identity Pool Id",
+			"displayName": "Identity Pool ID",
 			"name": "IdentityPoolId",
 			"type": "string",
 			"default": "",
@@ -2373,7 +2373,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Identity Id",
+			"displayName": "Identity ID",
 			"name": "IdentityId",
 			"type": "string",
 			"default": "",
@@ -2626,7 +2626,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Identity Pool Id",
+			"displayName": "Identity Pool ID",
 			"name": "IdentityPoolId",
 			"type": "string",
 			"default": "",
@@ -2726,7 +2726,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Identity Pool Id",
+			"displayName": "Identity Pool ID",
 			"name": "IdentityPoolId",
 			"type": "string",
 			"default": "",
@@ -2877,7 +2877,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Identity Pool Id",
+			"displayName": "Identity Pool ID",
 			"name": "IdentityPoolId",
 			"type": "string",
 			"default": "",
@@ -3179,7 +3179,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Identity Id",
+			"displayName": "Identity ID",
 			"name": "IdentityId",
 			"type": "string",
 			"default": "",
@@ -3205,7 +3205,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Identity Pool Id",
+			"displayName": "Identity Pool ID",
 			"name": "IdentityPoolId",
 			"type": "string",
 			"default": "",
@@ -3357,7 +3357,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Identity Id",
+			"displayName": "Identity ID",
 			"name": "IdentityId",
 			"type": "string",
 			"default": "",
@@ -3635,7 +3635,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Identity Pool Id",
+			"displayName": "Identity Pool ID",
 			"name": "IdentityPoolId",
 			"type": "string",
 			"default": "",
@@ -3787,7 +3787,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Open Id Connect Provider AR Ns",
+			"displayName": "Open ID Connect Provider AR Ns",
 			"name": "OpenIdConnectProviderARNs",
 			"type": "json",
 			"default": "[\n  null\n]",

@@ -53,9 +53,34 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Default | Post create identity pool, Post delete identities, Post delete identity pool, Post describe identity, Post describe identity pool, Post get credentials for identity, Post get id, Post get identity pool roles, Post get open id token, Post get open id token for developer identity, Post get principal tag attribute map, Post list identities, Post list identity pools, Post list tags for resource, Post lookup developer identity, Post merge developer identities, Post set identity pool roles, Post set principal tag attribute map, Post tag resource, Post unlink developer identity, Post unlink identity, Post untag resource, Post update identity pool |
+<details>
+<summary><b>Default</b> (23 operations)</summary>
+
+- Post Create Identity Pool
+- Post Delete Identities
+- Post Delete Identity Pool
+- Post Describe Identity
+- Post Describe Identity Pool
+- Post Get Credentials For Identity
+- Post Get ID
+- Post Get Identity Pool Roles
+- Post Get Open ID Token
+- Post Get Open ID Token For Developer Identity
+- Post Get Principal Tag Attribute Map
+- Post List Identities
+- Post List Identity Pools
+- Post List Tags For Resource
+- Post Lookup Developer Identity
+- Post Merge Developer Identities
+- Post Set Identity Pool Roles
+- Post Set Principal Tag Attribute Map
+- Post Tag Resource
+- Post Unlink Developer Identity
+- Post Unlink Identity
+- Post Untag Resource
+- Post Update Identity Pool
+
+</details>
 
 ---
 
